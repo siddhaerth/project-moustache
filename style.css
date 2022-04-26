@@ -1,0 +1,28 @@
+#btn:hover {
+    background-color: lightskyblue;
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+canvas {
+    animation-name: clown;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clown {
+    from {
+        box-shadow: 15px 15px 110px greenyellow;
+    }
+
+    to {
+        box-shadow: 15px 15px 110px lightskyblue;
+    }
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+}
